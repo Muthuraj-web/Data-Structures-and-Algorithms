@@ -60,7 +60,7 @@ class Sorting:
         
         return mergedSubArr
     
-    #Time Complexity -> O(N*Log(N))
+    #Time Complexity -> O(N*Log(N)) always chosen last element as pivot
     #Space Complexity -> O(Log(N)) -> space taken in call Stack
     def quickSort(self,arr):
         return self._qucikSort(0,len(arr)-1,arr)
